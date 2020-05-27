@@ -1,0 +1,7 @@
+{
+  "name": "focus-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
