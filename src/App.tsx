@@ -26,6 +26,10 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+setInterval(() => {
+  console.log(document.activeElement);
+}, 100);
+
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
